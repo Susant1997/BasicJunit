@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.APITextExample.XMLSchemaValidation">
+      <class name="org.DataProvider.DataDrivenExcel">
         <methods>
-          <include name="schemaXMLValidation"/>
+          <include name="testDelete" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- org.APITextExample.XMLSchemaValidation -->
+      </class> <!-- org.DataProvider.DataDrivenExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
